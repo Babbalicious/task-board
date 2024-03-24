@@ -41,21 +41,21 @@
           data-bs-toggle="modal"
           data-bs-target="#formModal"
         >
-          Add Task
+          Create Task
         </button>
       </div>
       <!-- Todo: Create a modal with a form to add tasks -->
-      <div
+        <div
         class="modal fade"
         id="formModal"
         tabindex="-1"
         aria-labelledby="formModal"
         aria-hidden="true"
-      >
+        >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="modal-title">Add Task</h5>
               <button
                 type="button"
                 class="btn-close"
@@ -63,8 +63,8 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-              <div class="row">
+            <div class="modal-body" >
+              <div class="row" id="modal-top-row">
                 <div class="col-6">
                   <label for="task-title">Task Title</label>
                   <input type="text" id="task-title"></input>
@@ -76,9 +76,9 @@
 
               </div>
               
-              <div class="d-flex">
+              <div class="d-flex" id="modal-task-description">
                 <label for="">Task Description</label>
-                <textarea id="task-description" name="" id=""></textarea>
+                <textarea id="task-desc-input" name="" id=""></textarea>
               </div>
             </div>
             <div class="modal-footer">
@@ -89,13 +89,13 @@
               >
                 Close
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
+              <button type="button" class="btn btn-primary" id="add-task">
+                Add Task
               </button>
             </div>
           </div>
         </div>
-      </div>
+        </div>
 
       <div class="row swim-lanes text-center justify-content-between">
         <div class="col-12 col-lg-4 d-flex">
