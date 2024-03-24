@@ -12,7 +12,7 @@ function generateTaskId() {
 }
 
 function readTasksFromStorage() {
-  const tasks = JSON.parse(localStorage.getItem("tasks"));
+  let tasks = JSON.parse(localStorage.getItem("tasks"));
   if (!tasks) {
     tasks = [];
   }
