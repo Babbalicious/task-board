@@ -6,9 +6,7 @@ This is a simple task board application that allows users to create tasks by the
 
 ## Screenshots
 
-![Application Screenshot](assets/images/Screenshot.png)
-
-![Application Screenshot 2](assets/images/Screenshot2.png)
+![Application Screenshot](./assets/images/screenshot.png)
 
 ## Contact Me
 
