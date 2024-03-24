@@ -2,11 +2,7 @@
 
 ## Purpose
 
-Create a simple task board application that allows a team to manage project tasks by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with dates. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
-
-SO THAT I can add individual project tasks, manage their state of progress and track overall project progress accordingly
+This is a simple task board application that allows users to create tasks by their due date, and place them into columns based on their progress. Users press the Create Task button, then enter a name, due date, and description of the task. The task is placed in the to-do column. Users can drag the task into the "In Progress" or "Done" columns. The tasks change to yellow when the due date is today, and red if the due date has already passed.
 
 ## Screenshots
 
